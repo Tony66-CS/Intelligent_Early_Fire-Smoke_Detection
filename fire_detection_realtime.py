@@ -28,8 +28,8 @@ from groq import Groq
 #  CONFIGURATION — edit these
 # ─────────────────────────────────────────────────────────────
 
-MODEL_PATH   = "Models/best-2.pt"                             # path to your trained weights
-GROQ_API_KEY = "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"  # get free key at console.groq.com
+MODEL_PATH   = "Models/best-2.pt"                           # path to your trained weights
+GROQ_API_KEY = "YOUR_API_KEY"                               # get free key at console.groq.com
 GROQ_MODEL   = "llama-3.3-70b-versatile"                    # fast and free; options below:
                                                             # "llama3-70b-8192"  (smarter, slower)
                                                             # "llama-3.1-8b-instant" (fastest)
